@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    padding-top: 0.4rem;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 4em 2em;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    background: var(--color-bg);
+    background: linear-gradient(#950740, transparent);
+}
+
+.tree {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.tree .name {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 1.6em;
+    font-size: 1.3rem;
+}
+
+.tree .profile-pic {
+    width: 180px;
+    padding-top: 0rem;
+    border-radius: 60%;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.tree .links a {
+    margin: 1.1rem auto;
+}
+
+.tree .footer {
+    margin: 2rem;
+}
+
+a.btn {
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;  
+}
+
+a.btn:hover {
+    background-color: #950740;
+}
+
+a.btn-outline-primary {
+    border-color: black;
+}
+
+a.btn-outline-primary:hover {
+    border-color: white;
+}
+
+/* =================== MEDIA(PHONES/TABLETS) ====================== */
+
+@media screen and (max-width: 1024px) {
+    .tree {
+        max-width: 500px;
+    }
+    
+    .tree .name {
+        font-size: 1.1rem;
+    }
+    
+    .tree .profile-pic {
+        width: 140px;
+    }
+}
+
+/* =================== MEDIA(PHONES/TABLETS) ====================== */
+
+@media screen and (max-width: 600px) {
+    .tree {
+        max-width: 400px;
+    }
+    
+    .tree .name {
+        font-size: 1.0rem;
+    }
+    
+    .tree .profile-pic {
+        width: 120px;
+    }
+}
